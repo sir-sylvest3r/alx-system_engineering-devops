@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Enter New Script Name: " file
+echo -e '#!/bin/bash\n' > $file
+chmod u+x $file
+vi $file
